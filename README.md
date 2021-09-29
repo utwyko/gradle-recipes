@@ -16,6 +16,10 @@ The agp-7.0 branch currently represents the state of the latest AGP 7.0 beta
 
 The agp-7.1 branch currently represents the state of the latest AGP 7.1 alpha
 
+## How to report issues? ##
+
+Please file bugs at the main Android issue tracker: https://issuetracker.google.com/issues/new?component=192708&template=840533
+
 ## License ##
 
     Copyright 2020 The Android Open Source Project
