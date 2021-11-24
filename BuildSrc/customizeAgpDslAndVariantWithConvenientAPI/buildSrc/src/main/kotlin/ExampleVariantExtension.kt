@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 /**
-* Simple Variant scoped extension interface that will be attached to the AGP
-* variant object.
-*/
+ * Simple Variant scoped extension interface that will be attached to the AGP
+ * variant object.
+ */
 import org.gradle.api.provider.Property
 import com.android.build.api.variant.VariantExtension
 
-interface ExampleVariantExtension: VariantExtension {
+interface ExampleVariantExtension : VariantExtension {
     /**
      * the parameters is declared a Property<> so other plugins can declare a
      * task providing this value that will then be determined at execution time.

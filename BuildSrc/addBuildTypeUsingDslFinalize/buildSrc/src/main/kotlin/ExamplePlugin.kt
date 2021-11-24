@@ -17,7 +17,7 @@ import org.gradle.api.Plugin
 import org.gradle.api.Project
 import com.android.build.api.variant.AndroidComponentsExtension
 
-abstract class ExamplePlugin: Plugin<Project> {
+abstract class ExamplePlugin : Plugin<Project> {
 
     override fun apply(project: Project) {
         val androidComponents = project.extensions.getByType(AndroidComponentsExtension::class.java)

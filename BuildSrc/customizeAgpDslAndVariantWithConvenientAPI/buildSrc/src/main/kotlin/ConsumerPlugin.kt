@@ -18,7 +18,7 @@ import org.gradle.api.Project
 import java.io.File
 import com.android.build.api.variant.AndroidComponentsExtension
 
-abstract class ConsumerPlugin: Plugin<Project> {
+abstract class ConsumerPlugin : Plugin<Project> {
 
     override fun apply(project: Project) {
         project.extensions.getByType(AndroidComponentsExtension::class.java)
@@ -28,6 +28,6 @@ abstract class ConsumerPlugin: Plugin<Project> {
                         variant.getExtension(ExampleVariantExtension::class.java)?.parameters
                     )
                 }
-        }
+            }
     }
 }

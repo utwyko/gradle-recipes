@@ -21,7 +21,7 @@ import com.android.build.api.dsl.ApplicationExtension
 import com.android.build.api.variant.AndroidComponentsExtension
 import com.android.build.api.artifact.SingleArtifact
 
-abstract class ConsumerPlugin: Plugin<Project> {
+abstract class ConsumerPlugin : Plugin<Project> {
 
     override fun apply(project: Project) {
         val androidComponents = project.extensions.getByType(AndroidComponentsExtension::class.java)

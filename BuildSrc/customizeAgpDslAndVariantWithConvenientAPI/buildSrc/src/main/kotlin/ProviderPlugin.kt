@@ -19,7 +19,7 @@ import java.io.File
 import com.android.build.api.variant.AndroidComponentsExtension
 import com.android.build.api.variant.DslExtension
 
-abstract class ProviderPlugin: Plugin<Project> {
+abstract class ProviderPlugin : Plugin<Project> {
 
     override fun apply(project: Project) {
         project.extensions.getByType(AndroidComponentsExtension::class.java)

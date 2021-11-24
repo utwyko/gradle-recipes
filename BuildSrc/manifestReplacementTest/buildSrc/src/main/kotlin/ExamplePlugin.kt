@@ -19,7 +19,7 @@ import org.gradle.api.Project
 import java.io.File
 import com.android.build.api.variant.AndroidComponentsExtension
 
-abstract class ExamplePlugin: Plugin<Project> {
+abstract class ExamplePlugin : Plugin<Project> {
 
     override fun apply(project: Project) {
         val gitVersionProvider =

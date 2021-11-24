@@ -1,4 +1,3 @@
-
 buildscript {
     repositories {
         google()
@@ -10,7 +9,7 @@ buildscript {
     }
 }
 allprojects {
-        repositories {
+    repositories {
         google()
         jcenter()
     }

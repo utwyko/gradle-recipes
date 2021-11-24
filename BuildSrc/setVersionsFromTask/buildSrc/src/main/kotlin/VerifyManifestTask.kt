@@ -25,7 +25,7 @@ import org.gradle.api.provider.Property
 import org.gradle.api.tasks.Internal
 import java.io.File
 
-abstract class VerifyManifestTask: DefaultTask() {
+abstract class VerifyManifestTask : DefaultTask() {
 
     @get:InputFiles
     abstract val apkFolder: DirectoryProperty

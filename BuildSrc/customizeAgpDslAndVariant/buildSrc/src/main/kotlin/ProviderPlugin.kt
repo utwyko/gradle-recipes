@@ -19,7 +19,7 @@ import java.io.File
 import com.android.build.api.dsl.ApplicationExtension
 import com.android.build.api.variant.AndroidComponentsExtension
 
-abstract class ProviderPlugin: Plugin<Project> {
+abstract class ProviderPlugin : Plugin<Project> {
 
     override fun apply(project: Project) {
         val objects = project.getObjects();
@@ -28,7 +28,8 @@ abstract class ProviderPlugin: Plugin<Project> {
         android.buildTypes.forEach {
             it.extensions.add(
                 "exampleDsl",
-                BuildTypeExtension::class.java)
+                BuildTypeExtension::class.java
+            )
         }
 
 

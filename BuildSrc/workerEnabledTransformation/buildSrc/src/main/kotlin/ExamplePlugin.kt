@@ -19,7 +19,7 @@ import java.io.File
 import com.android.build.api.variant.AndroidComponentsExtension
 import com.android.build.api.artifact.SingleArtifact
 
-abstract class ExamplePlugin: Plugin<Project> {
+abstract class ExamplePlugin : Plugin<Project> {
 
     override fun apply(project: Project) {
 

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 /**
-* Simple Variant scoped extension interface that will be attached to the AGP
-* variant object.
-*/
+ * Simple Variant scoped extension interface that will be attached to the AGP
+ * variant object.
+ */
 import org.gradle.api.provider.Property
 
 interface VariantExtension {
